@@ -1,8 +1,9 @@
 import static org.junit.Assert.*;
 
+
 import org.junit.Test;
 
-import jdk.nashorn.internal.ir.annotations.Ignore;
+//import jdk.nashorn.internal.ir.annotations.Ignore;
 
 public class TennisGameTest {
 	
@@ -20,7 +21,7 @@ public class TennisGameTest {
 // "player2 has advantage"
 // "player1 wins"
 // "player2 wins"
-	@Ignore
+	@org.junit.Ignore
 	public void testTennisGame_Start() {
 		//Arrange
 		TennisGame game = new TennisGame();
